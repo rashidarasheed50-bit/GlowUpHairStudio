@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Base.Theme.GlowUpHairStudio" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary_pink</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorSecondary">@color/gold</item>
-        <item name="colorOnSecondary">@color/text_primary</item>
-        <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:navigationBarColor">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
+    <style name="Base.Theme.GlowUpHairStudio" parent="android:Theme.Material.Light.NoActionBar">
     </style>
     <style name="Theme.GlowUpHairStudio" parent="Base.Theme.GlowUpHairStudio" />
 </resources>
