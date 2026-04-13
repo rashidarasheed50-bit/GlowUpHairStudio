@@ -1,5 +1,7 @@
 package com.glowup.hairstudio.presentation.components
 
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -17,8 +19,7 @@ fun GlowUpCard(
     content: @Composable ColumnScope.() -> Unit
 ) {
     Card(
-        modifier = modifier,
-        onClick = onClick ?: {},
+        modifier = if (onClick != null) modifier.clickable { onClick() } else modifier,
         shape = RoundedCornerShape(CornerRadius.Large),
         colors = CardDefaults.cardColors(
             containerColor = White,
