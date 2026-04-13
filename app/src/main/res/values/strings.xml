@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">GlowUp Hair Studio</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading...</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="services">Services</string>
+    <string name="appointments">Appointments</string>
+    <string name="reviews">Reviews</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Services -->
+    <string name="book_now">Book Now</string>
+    <string name="browse_services">Browse Services</string>
+    
+    <!-- Appointments -->
+    <string name="upcoming_appointments">Upcoming Appointments</string>
+    <string name="past_appointments">Past Appointments</string>
+    <string name="no_appointments">No appointments yet</string>
+    
+    <!-- Loyalty -->
+    <string name="loyalty_rewards">Loyalty Rewards</string>
+    <string name="visits_to_free">%1$d more visits to earn a free service</string>
+</resources>
