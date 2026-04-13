@@ -1,6 +1,7 @@
 package com.glowup.hairstudio.presentation.screens.splash
 
 import androidx.compose.foundation.background
+import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.MaterialTheme

@@ -1,6 +1,7 @@
 package com.glowup.hairstudio.presentation.screens.login
 
 import androidx.compose.foundation.background
+import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
